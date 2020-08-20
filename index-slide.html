@@ -17,9 +17,11 @@
   <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
   <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
   <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/slippry.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
   <link href="color/default.css" rel="stylesheet">
+
 
 </head>
 
@@ -52,26 +54,21 @@
   </div>
   <!-- /page loader -->
 
-  <!-- Section: home video -->
-  <section id="intro" class="home-video text-light">
-    <div class="home-video-wrapper">
-
-      <div class="homevideo-container">
-        <div id="P1" class="bg-player" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'https://www.youtube.com/watch?v=mroiVdC7H10',containment:'.homevideo-container', quality: 'hd720', showControls: false, autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
-      </div>
-      <div class="overlay">
-        <div class="text-center video-caption">
-          <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
-            <h1 class="big-heading font-light"><span id="js-rotating">Suscribete a ProOnliPc, Tema Impresionante, Dale like al video, Gracias</span></h1>
-          </div>
-          <div class="wow bounceInUp" data-wow-offset="0" data-wow-delay="1s">
-            <div class="margintop-30">
-              <a href="#about" class="btn btn-skin" id="btn-scroll">Start here</a>
-            </div>
-          </div>
+  <!-- Section: home slide -->
+  <section id="intro" class="home-slide text-light">
+    <ul id="valera-slippry">
+      <li>
+        <div>
+          <img src="img/slides/1.jpg" alt="Bienvenidos a ProOnliPc Tutoriales<br /><a href='#about' class='btn btn-skin btn-slide'>Learn more</a>">
         </div>
-      </div>
-    </div>
+      </li>
+      <li>
+        <div><img src="img/slides/2.jpg" alt="Tema Impresionante <br /><a href='#' class='btn btn-skin btn-slide'>Service block</a>"></div>
+      </li>
+      <li>
+        <div><img src="img/slides/3.jpg" alt="Dale Like al video <span class='red'>♥</span>:) <br /><a href='#' class='btn btn-skin btn-slide'>Portfolio</a>"></div>
+      </li>
+    </ul>
   </section>
   <!-- /Section: intro -->
 
@@ -81,43 +78,41 @@
     <nav class="navbar navbar-custom" role="navigation">
       <div class="container">
         <div class="row">
-          <div class="col-md-2 mob-logo">
-            <div class="row">
-              <div class="site-logo">
-                <a href="index.html"><img src="img/logo-dark.png" alt="" /></a>
-              </div>
+          <div class="col-md-2">
+            <div class="site-logo">
+              <a href="index.html"><img src="img/logo-dark.png" alt="" /></a>
             </div>
           </div>
 
 
-          <div class="col-md-10 mob-menu">
-            <div class="row">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+          <div class="col-md-10">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
                                                 <i class="fa fa-bars"></i>
                                                 </button>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="menu">
-                <ul class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="#intro">Home</a></li>
-                  <li><a href="#about">About Us</a></li>
-                  <li><a href="#service">Services</a></li>
-                  <li><a href="#works">Works</a></li>
-
-                  <li><a href="#contact">Contact</a></li>
-                  <li class="dropdown nav-toggle">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropwdown<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a class="external" href="#">Sub menu</a></li>
-                      <li><a class="external" href="#">Sub menu</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <!-- /.Navbar-collapse -->
             </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#intro">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#works">Works</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown nav-toggle">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropwdown<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="external" href="#">Sub menu</a></li>
+                    <li><a class="external" href="#">Sub menu</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.Navbar-collapse -->
+
           </div>
         </div>
       </div>
@@ -521,10 +516,10 @@
               </ul>
 
             </div>
-            <p>&copy;ProOnliPc Theme. All Rights Reserved</p>
+            <p>&copy; ProOnliPc Theme. All Rights Reserved</p>
             <div class="credits">
-        
-              <a href="http://www.servitecflhuaraz.com/">ProOnliPc Templates</a> by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw/featured?view_as=subscriber">ProOnliPc</a>
+       
+              <a href="https://bootstrapmade.com/">ProOnliPc Templates</a> by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw/featured?view_as=subscriber/">ProOnliPc</a>
             </div>
           </div>
         </div>
